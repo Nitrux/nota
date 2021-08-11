@@ -18,10 +18,10 @@ Build-Depends: cmake,
                qtdeclarative5-dev,
                qtquickcontrols2-5-dev
 Standards-Version: 4.2.1
-Homepage: https://github.com/maui-project/nota
-Vcs-Git: https://invent.kde.org/neon/mobile/nota.git
-Vcs-Browser: https://invent.kde.org/neon/mobile/nota
-Maintainer: Neon CI <neon@kde.org>
+Homepage: https://invent.kde.org/maui/nota/
+Vcs-Git: https://invent.kde.org/maui/nota.git
+Vcs-Browser: https://invent.kde.org/maui/nota/
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
 
 Package: nota
 Architecture: any
