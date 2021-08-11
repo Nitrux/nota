@@ -1,5 +1,12 @@
+nota (0.0.2+2.0.0+git) nitrux; urgency=medium
+
+  * Update package dependencies and description.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 11 Aug 2021 13:10:00 -0500
+
 nota (0.0.1+2.0.0+git) nitrux; urgency=medium
 
   * Create package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Tue, 10 Aug 2021 22:00:00 -0500
+ 
