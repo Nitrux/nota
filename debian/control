@@ -16,8 +16,7 @@ Build-Depends: cmake,
                mauikit-dev,
                qtbase5-dev (>= 5.5.0~),
                qtdeclarative5-dev,
-               qtquickcontrols2-5-dev,
-               qtwebengine5-dev
+               qtquickcontrols2-5-dev
 Standards-Version: 4.2.1
 Homepage: https://github.com/maui-project/nota
 Vcs-Git: https://invent.kde.org/neon/mobile/nota.git
@@ -27,7 +26,6 @@ Maintainer: Neon CI <neon@kde.org>
 Package: nota
 Architecture: any
 Depends: qml-module-org-kde-mauikit,
-         qml-module-qmltermwidget,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Maui File manager
