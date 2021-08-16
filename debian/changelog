@@ -1,3 +1,9 @@
+nota (0.0.3+2.0.0+git) nitrux; urgency=medium
+
+  * Bump version.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 16 Aug 2021 10:54:00 -0500
+
 nota (0.0.2+2.0.0+git) nitrux; urgency=medium
 
   * Update package dependencies and description.
