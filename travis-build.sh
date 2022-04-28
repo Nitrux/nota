@@ -46,15 +46,19 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5service-dev \
 	libkf5syntaxhighlighting-dev \
 	libqt5svg5-dev \
-	mauikit-git \
+	libwayland-dev \
 	mauikit-filebrowsing-git \
+	mauikit-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
-	qtquickcontrols2-5-dev
+	qtquickcontrols2-5-dev \
+	qtwayland5 \
+	qtwayland5-dev-tools \
+	qtwayland5-private-dev
 
 ### Clone repo.
 
-git clone --single-branch --branch v2.1 https://invent.kde.org/maui/nota.git
+git clone --single-branch --branch master https://invent.kde.org/maui/nota.git
 
 rm -rf nota/{android_files,macos_files,windows_files,examples,LICENSES,README.md}
 
@@ -93,7 +97,7 @@ checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
 	--pkgname=nota-git \
-	--pkgversion=2.1.1+git+2 \
+	--pkgversion=2.1.2+git+2 \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
@@ -102,7 +106,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=nota \
-	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libkf5syntaxhighlighting5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.1.1+git+1\),mauikit-filebrowsing-git \(\>= 2.1.1+git+1\),qml-module-qt-labs-platform" \
+	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libkf5syntaxhighlighting5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.1.2+git+1\),mauikit-filebrowsing-git \(\>= 2.1.2+git+1\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
