@@ -11,7 +11,7 @@ set -e
 
 # -- Download Source
 
-git clone --depth 1 --branch "$NOTA_BRANCH" https://invent.kde.org/maui/nota.git
+git clone --depth 1 --branch "$NOTA_BRANCH" https://github.com/Nitrux/maui-nota.git
 
 
 # -- Compile Source
