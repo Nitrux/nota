@@ -63,7 +63,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=nota \
-	--requires="kio-extras,libkf6syntaxhighlighting6,mauikit-filebrowsing \(\>= 4.0.2\),mauikit \(\>= 4.0.2\),mauikit-texteditor \(\>= 4.0.2\),qml6-module-org-kde-sonnet,qml6-module-qtcore,qml6-module-qtquick-effects" \
+	--requires="kio-extras,libkf6syntaxhighlighting6,mauikit-filebrowsing \(\>= 4.0.3\),mauikit \(\>= 4.0.3\),mauikit-texteditor \(\>= 4.0.3\),qml6-module-org-kde-sonnet,qml6-module-qtcore,qml6-module-qtquick-effects" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
